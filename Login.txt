@@ -1,0 +1,45 @@
+<!doctypr html>
+<html>
+
+<head>
+</head>
+
+<style>
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+a:hover{
+	background-color: green;
+}
+</style>
+
+<body>
+	<div align="center">
+	<nav><ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Product</a></li>
+		<li><a href="#">Login</a></li>
+	</ul>
+</nav></div>
+</body>
+</html>

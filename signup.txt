@@ -1,0 +1,184 @@
+<!Doctype html>
+<html>
+<head>
+	<title>FooInf</title>
+</head>
+
+<style type="text/css">
+
+header{
+	height: 170px;
+	opacity: 0.6;
+	font-family: serif;
+	text-align: center;
+	font-size: 40px;
+	color: rgb(255,255,200);
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-image: url(vegetables2.jpg);
+	font-weight: bold;
+	width: 1350px;
+
+}
+
+nav{
+	margin: 0px 0px 0px 0px;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	width: 1350px;
+}
+
+footer{
+	text-align: right;
+	font-weight: bold;
+	background-color: rgb(217,82,24);
+	color: white;
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 1350px;
+	display: block;
+	position: relative;
+}
+
+
+header h1{
+	display: inline-block;
+	opacity: 1.0;
+	background-color: rgb(0,0,0);
+	border-radius: 40px;
+	width: 300px;
+}
+header h1:hover{
+	background-color: rgb(38,12,15);
+	border-radius: 40px;
+	width: 300px;
+}
+
+ul.navigation_ulclass{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(217,82,24);
+	height: 40px;
+}
+
+li.navigation_liclass{
+	display: inline;
+}
+
+a.navigation_aclass{
+	display: inline-block;
+	width: 80px;
+	color: black;
+	text-decoration: none;
+	padding-top: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	height: 30px;
+}
+
+a.navigation_aclass:hover{
+	background-color: rgb(255,255,200);
+	color: black;
+}
+.button{
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	font-size: 20px;
+	background-color: white;
+	opacity: 1.0;
+	color: black;
+	font-weight: bold;
+}
+
+.button:hover{
+	background-color: #F5F5F5;
+}
+
+.login1{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	height: 600px;
+	padding-top: 10px;
+	margin: 20px 350px 20px 350px;
+}
+.tbox{
+	height: 25px;
+	width: 200px;
+	border-radius: 5px;
+	font-size: 20px;
+	opacity: 1.0;
+	font-weight: bold;
+
+}
+
+#signup{
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+#age{
+	display: inline-block;
+	width: 60px;
+}
+
+#foodlist{
+	list-style-type: none;
+}
+
+#flist{
+	padding-top: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: green;
+	border-radius: 10px;
+}
+
+</style>
+
+<body>
+
+<div align="center">
+<nav>
+	<ul class="navigation_ulclass">
+		<li class="navigation_liclass"><a href="JS.html" class="navigation_aclass">Home</a></li>
+		<li class="navigation_liclass"><a href="about.html" class="navigation_aclass">About</a></li>
+		<li class="navigation_liclass"><a href="#" class="navigation_aclass">Contact</a></li>
+		<li class="navigation_liclass"><a href="Login.html" class="navigation_aclass">Login</a></li>
+	</ul>
+</nav>
+</div>
+
+<div class="header1">
+<header><h1 class="fooin"><b>FooIn</b></h1>
+</header>
+</div>
+
+
+<div class="login1" align="center">
+	<fieldset id="flist"><legend>Login Form</legend><form id="form1">
+	First Name: <input type="text" name="firstname" placeholder="firstname" class="tbox"><br><br>Last Name: <input type="text" name="lastname" placeholder="lastname" class="tbox"><br><br>Email ID: <input type="email" name="email" placeholder="E-mail id" class="tbox"><br><br> Enter Password: <input type="Password" name="Password" placeholder="Password" class="tbox"><br><br>Phone Number: <input type="text" name="phonenumber" placeholder="Number" class="tbox"><br><br>Date of Birth: <input type="date" name="age" value="age"><br><br>
+	Gender: <input type="radio" name="male" value="male">Male <input type="radio" name="female" value="female">Female<br><br>
+	Types of Food: <ul id="foodlist"><li><input type="checkbox" name="vegetarian" value="vegetarian">Vegetarian</li>
+<li><input type="checkbox" name="nonvegetarian" value="nonvegetarian">Non-Vegetarian</li>
+</ul>
+	Account Type: <select name="AccountType">
+	<option value="notselected">Select</option>
+	<option value="administrator">Administrator</option>
+	<option value="user">User</option>
+	<option value="Cheff">Cheff</option>
+	<option value="Reviewer">Reviewer</option>
+</select>
+<br><br>
+	<input align="right" class="button" type="button" name="Signup" value="Signup">
+	</form></fieldset>
+</div>
+<footer>@COPYRIGHTED by FooInf</footer>
+
+</body>
+</html>
